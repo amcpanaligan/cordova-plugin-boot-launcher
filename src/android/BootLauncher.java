@@ -8,7 +8,7 @@ public class BootLauncher extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        Intent serviceIntent = new Intent(context, com.ionicframework.companyinsight249487.MainActivity.class);
+        Intent serviceIntent = new Intent(context, com.ionicframework.companyinsight2714000.MainActivity.class);
         serviceIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(serviceIntent);
     }
